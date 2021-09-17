@@ -8,6 +8,9 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: gold;
+
 }
 
 .container {
@@ -15,9 +18,9 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 5px solid steelblue;
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .header {
@@ -26,10 +29,13 @@ body {
   align-items: center;
   margin-bottom: 20px;
 }
+.header h1 {
+  color: tomato;
+}
 
 .btn {
   display: inline-block;
-  background: #000;
+  background: rgb(241, 245, 247);
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -55,7 +61,8 @@ body {
 }
 
 .task {
-  background: #f4f4f4;
+  background: #3c3c47;
+  color: gold;
   margin: 5px;
   padding: 10px 20px;
 }
