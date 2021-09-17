@@ -4,12 +4,12 @@
       "id": 3,
       "text": "Food Shopping",
       "day": "Feb 5th at 2:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "text": "CODING CHALLENGE",
       "day": "16TH SEPTEMBER 2021",
-      "reminder": false,
+      "reminder": true,
       "id": 5
     }
   ]

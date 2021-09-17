@@ -89,8 +89,6 @@ const App = () => {
     <Router>
     <div className="container">
         <Header title = {"Todo Mania"} onAdd = {() => setShowAddTask( !showAddTask)}  showAdd = {showAddTask}/>
-        
-        
         <Route path = '/' exact render = {(props) => ( <> 
           {showAddTask && < AddTask onAdd = {addTask}/>}
           {tasks.length > 0 ? (<Tasks tasks = {tasks} del = {deleteTask} onToggle = {toggleReminder} /> ):( "No tasks to show")} 
